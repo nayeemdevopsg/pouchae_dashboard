@@ -81,8 +81,9 @@ body{
     background-color: #d69b13d2;
     border-radius: 7px;
     width: 96%;
-    margin-right: 10%;
+    margin-right: 7%;
     padding: 3%;
+    overflow: scroll;
 }
 
 .p6{
@@ -129,4 +130,8 @@ color: white;
 }
 .bg{
     background-color: #11248E;
+}
+
+.scl{
+    overflow: scroll;
 }
