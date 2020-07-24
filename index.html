@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Pouchae_Admin_Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Top Bar-->
+<div class="col-md-12 green">
+<h2 style="color:white;text-align: center;">Admin Dashboard</h2>
+</div>
+
+<!--Delivery and Payment Status-->
+<div class="container total">
+    <div class="row">
+     <div class="col-md-10 left">
+    <label>
+        FROM:
+    </label>
+    <input type="date" class= "from" name="" id="" placeholder="DD-MM-YYYY">
+    <label>
+        TO:
+    </label>
+    <input type="date" class= "to" name="" id="" placeholder="DD-MM-YYYY">
+     </div>
+     <div class="col-md-1">
+     <button class="btn btn-success">Search</button>
+     </div>
+    </div><br>
+
+<!--delivery-->
+    <div class = "row">
+<div class= "col-md-5 delivery">
+<div class="row">
+<div class="col-md-2 pd">
+    <h5>Orders</h5>
+    <h6>100</h6>
+    <h5>Returned</h5>
+    <h6 style="color:red">12</h6>
+</div>
+<div class="col-md-2 pd2">
+    <h5>Delivered</h5>
+    <h6>67</h6>
+    <h5>Resc./Hl</h5>
+    <h6 style="color:red">36</h6>
+</div>
+<div class="col-md-1 pd3">
+<img width="100px" src="images/package.png">
+</div>
+</div>
+</div>
+<!--Blank-->
+<!-- <div class= "col-md-1">
+
+</div> -->
+<!--Payment-->
+<div class= "col-md-5 payment">
+<div class="row">
+<div class="col-md-3 pd">
+    <h5>Collected</h5>
+    <h6>TK<span>10000</span></h6>
+    <h5>Distributed</h5>
+    <h6>TK<span>54000</span></h6>
+</div>
+<div class="col-md-1 pd2">
+    <h5>Due</h5>
+    <h6 style="color:red">Tk<span>7000</span></h6>
+    <h5>Payable</h5>
+    <h6 style="color: yellow">Tk<span>12000</span></h6>
+</div>
+<div class="col-md-1 pd3">
+    <img width="100px" src="images/money.png"> 
+</div>
+</div>
+</div>
+</div>
+</div><br>
+
+
+<!--Find-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8">
+            <input type="text" name="" id="product" placeholder="Product ID">
+            <input type="text" name="" id="merchant" placeholder="Merchant ID">
+            <input type="text" name="" id="operator" placeholder="Operator ID">
+            <button class="btn btn-success">Fetch!</button>
+        </div>
+        <div class="col-md-2">
+        </div>
+       </div><br>
+
+       <div class= "col-md-12 find">
+        <div class="row">
+            <div class="col-md-1"></div>
+        <div class="col-md-3 sr">
+            <h6 style="color: white">Product ID: <span>0093883</span></h6>
+            <h5>Customer Name: <span>Ikbal</span></h5>
+            <h5>Customer Phone: <span>17525283</span></h5>
+            <h5>Parcel Status: <span>On-Hold</span></h5>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <h6 style="color: white">Merchant ID: <span>009793739</span></h6>
+            <h5>Merchant Name: <span>E-Electronics</span></h5>
+            <h5>Phone Number: <span>17525283</span></h5>
+            <h5>Parcel Type: <span>Small</span></h5>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <h6 style="color: white">Operator ID: <span>000576733</span></h6>
+            <h5>Operator Name: <span>Ikbal</span></h5>
+            <h5>Customer Phone: <span>17525283</span></h5>
+        </div>
+        </div>
+        </div>     
+</div><br>
+
+
+<!--Register Details-->
+<div class="container total">
+    <div class="row">
+     <div class="col-md-4 left">
+    <label style="font-weight: 800;">
+    Registered Operators
+    </label>
+    <input type="date" class= "opID" name="" id="" placeholder="Operators ID">
+     </div>
+     <div class="col-md-1">
+     <button class="btn btn-success">Search</button>
+     </div>
+<div class="col-md-1"></div>
+    <div class="col-md-4 mer-left">
+   <label style="font-weight: 800;">
+   Registered Merchants
+   </label>
+   <input type="date" class= "opID" name="" id="" placeholder="Merchants ID">
+    </div>
+    <div class="col-md-1">
+    <button class="btn btn-primary bg">Search</button>
+    </div>
+    </div><br>
+
+    
+
+<!--Operator Details-->
+    <div class = "row">
+<div class= "col-md-5 delivery">
+<div class="row">
+<div class="col-md-1 pd">
+    <h4>ID</h4>
+    <h6>003893</h6>
+</div>
+<div class="col-md-2 pd">
+    <h4>Email</h4> 
+    <h6>xyz@gmail.com</h6>
+</div>
+<div class="col-md-1 pd7">
+    <h4>Pass</h4>
+    <h6>1230</h6>
+</div>
+<div class="col-md-1 pd7">
+    <h4>Del./Edi.</h4>
+    <h6><span id="delOp">Del.</span>/<span id="edOp">Edit</span></h6>
+    </div>
+    </div>
+</div>
+
+<!--Blank-->
+<!--Merchant Reg Details-->
+<div class= "col-md-5 payment">
+    <div class="row">
+        <div class="col-md-1 pd">
+            <h4>ID</h4>
+            <h6>003893</h6>
+        </div>
+        <div class="col-md-2 pd">
+            <h4>Email</h4> 
+            <h6>xyz@gmail.com</h6>
+        </div>
+        <div class="col-md-1 pd7">
+            <h4>Pass</h4>
+            <h6>1230</h6>
+        </div>
+        <div class="col-md-1 pd7">
+            <h4>Del./Edi.</h4>
+            <h6><span id="delOp">Del.</span>/<span id="edOp">Edit</span></h6>
+            </div>
+            </div> 
+            <hr>
+</div>
+</div>
+</div><br><br>
+
+
+
+<!--Copyright-->
+<div class="container" align="center">
+    
+            <img width="120px" src="/images/Screen Shot 2020-07-10 at 10.54.55 AM.png">
+            <p style="font-size:12px; padding-left:-6%;font-weight: 800;">Powered By|Arekta Agency</p>
+      
+</div><br>
+
+
+<!--footer-->
+<div id="footer">
+<p style="text-align: center;">All &#169; Rights Reserved by | Pouchae.com</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>   
+</body>
+</html>
